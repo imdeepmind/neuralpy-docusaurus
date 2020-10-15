@@ -74,7 +74,7 @@ module.exports = {
 			],
 			copyright: `Copyright © ${new Date().getFullYear()} Abhishek Chatterjee (imdeepmind), Inc. Built with Docusaurus.`,
 		},
-		gtag: {
+		googleAnalytics: {
 			trackingID: 'UA-167763893-1',
 			anonymizeIP: true,
 		},
@@ -95,6 +95,7 @@ module.exports = {
 		],
 	],
 	plugins: [
+    '@docusaurus/plugin-google-analytics',
 		[
 			'@docusaurus/plugin-sitemap',
 			{
