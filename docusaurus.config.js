@@ -85,8 +85,9 @@ module.exports = {
 			{
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
+					include: ['**/*.md', '**/*.mdx'],
 					// Please change this to your repo.
-					editUrl: 'https://github.com/imdeepmind/neuralpy-docusaurus',
+					editUrl: 'https://github.com/imdeepmind/NeuralPy/tree/master/',
 				},
 				theme: {
 					customCss: require.resolve('./src/css/custom.css'),
