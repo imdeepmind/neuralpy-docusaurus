@@ -36,12 +36,12 @@ module.exports = {
 					title: 'Docs',
 					items: [
 						{
-							label: 'Style Guide',
-							to: 'docs/',
+							label: 'Installation',
+							to: 'docs/installation',
 						},
 						{
-							label: 'Second Doc',
-							to: 'docs/doc2/',
+							label: 'Get Started',
+							to: 'docs/get-started',
 						},
 					],
 				},
@@ -72,7 +72,7 @@ module.exports = {
 					],
 				},
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} Abhishek Chatterjee (imdeepmind), Inc. Built with Docusaurus.`,
+			copyright: `Copyright © ${new Date().getFullYear()} Abhishek Chatterjee (imdeepmind), Built with Docusaurus.`,
 		},
 		googleAnalytics: {
 			trackingID: 'UA-167763893-1',
@@ -86,7 +86,6 @@ module.exports = {
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
 					include: ['**/*.md', '**/*.mdx'],
-					// Please change this to your repo.
 					editUrl: 'https://github.com/imdeepmind/NeuralPy/tree/master/',
 				},
 				theme: {
