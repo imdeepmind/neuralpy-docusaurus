@@ -3,7 +3,7 @@ module.exports = {
 	tagline: 'A Keras like deep learning library works on top of PyTorch ',
 	url: 'https://www.neuralpy.xyz/',
 	baseUrl: '/',
-	onBrokenLinks: 'throw',
+	onBrokenLinks: 'warn',
 	favicon: 'img/favicon.ico',
 	organizationName: 'imdeepmind',
 	projectName: 'NeuralPy',
