@@ -86,6 +86,16 @@ module.exports = {
 								'docs/layers/regularizers/dropout3d',
 							],
 						},
+						{
+							type: 'category',
+							label: 'Sparse',
+							items: ['docs/layers/sparse/embedding'],
+						},
+						{
+							type: 'category',
+							label: 'Other',
+							items: ['docs/layers/other/flatten'],
+						},
 					],
 				},
 				{
