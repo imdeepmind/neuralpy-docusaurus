@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
 	{
 		title: 'Easy to Use',
-		imageUrl: 'img/affection.svg',
+		imageUrl: 'img/happiness.svg',
 		description: <>NeuralPy provides an easy interface that is suitable for fast prototyping, learning, and research</>,
 	},
 	{
@@ -19,7 +19,7 @@ const features = [
 	},
 	{
 		title: 'Cross-Compatible',
-		imageUrl: 'img/exchange.svg',
+		imageUrl: 'img/two-way.svg',
 		description: (
 			<>
 				NeuralPy models are cross-compatible with PyTorch model, that mean you can use build the model in PyTorch and
@@ -48,7 +48,10 @@ function Home() {
 	const context = useDocusaurusContext();
 	const { siteConfig = {} } = context;
 	return (
-		<Layout title={`Hello from ${siteConfig.title}`} description="Description will go into a meta tag in <head />">
+		<Layout
+			title={`NeuralPy Deep Learning Library`}
+			description="NeuralPy is a High-Level Keras like deep learning library that works on top of PyTorch written in pure Python"
+		>
 			<header className={clsx('hero hero--primary', styles.heroBanner)}>
 				<div className="container">
 					<h1 className="hero__title">{siteConfig.title}</h1>

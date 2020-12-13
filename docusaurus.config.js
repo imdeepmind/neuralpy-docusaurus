@@ -8,6 +8,9 @@ module.exports = {
 	organizationName: 'imdeepmind',
 	projectName: 'NeuralPy',
 	themeConfig: {
+		colorMode: {
+			defaultMode: "dark"
+		},
 		navbar: {
 			title: 'Neuralpy',
 			logo: {
