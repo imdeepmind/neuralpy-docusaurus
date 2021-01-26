@@ -24,7 +24,9 @@ module.exports = {
 					label: 'Docs',
 					position: 'left',
 				},
-				{ to: 'https://medium.com/@imdeepmind', label: 'Blog', position: 'left' },
+				{ to: '/blogs', label: 'Blog', position: 'left' },
+				{ to: '/contributors', label: 'Contributors', position: 'left' },
+				{ to: 'https://discord.gg/ptGEQuy', label: 'Discord', position: 'left' },
 				{
 					href: 'https://github.com/imdeepmind/NeuralPy',
 					label: 'GitHub',
